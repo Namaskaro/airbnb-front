@@ -4,12 +4,33 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "tailwind-config": "tailwind-config-viewer -o"
   },
   "dependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.3",
+    "algoliasearch": "^4.8.5",
+    "apollo-boost": "^0.4.9",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-client": "^2.6.10",
+    "apollo-link": "^1.2.14",
+    "apollo-link-http": "^1.5.17",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.5.3",
+    "bootstrap-vue": "^2.21.1",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11",
+    "epic-spinners": "^1.1.0",
+    "graphql": "^15.5.0",
+    "graphql-tag": "^2.11.0",
+    "vue": "^2.6.12",
+    "vue-apollo": "^3.0.5",
+    "vue-browser-geolocation": "^1.8.0",
+    "vue-google-autocomplete": "^1.1.0",
+    "vue-multiselect": "^2.1.6",
     "vue-router": "^3.2.0",
+    "vue2-datepicker": "^3.9.0",
+    "vue2-google-maps": "^0.10.7",
+    "vuelidate": "^0.7.6",
     "vuex": "^3.4.0"
   },
   "devDependencies": {
@@ -17,8 +38,12 @@
     "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-plugin-vuex": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
-    "node-sass": "^4.12.0",
+    "autoprefixer": "^9.8.6",
+    "node-sass": "^4.14.1",
+    "postcss": "^7.0.35",
     "sass-loader": "^8.0.2",
+    "tailwind-config-viewer": "^1.5.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3",
     "vue-template-compiler": "^2.6.11"
   },
   "browserslist": [

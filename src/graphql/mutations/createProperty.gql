@@ -1,0 +1,16 @@
+import gql from 'graphql-tag'
+
+export const CREATE_PROPERTY = gql`
+  mutation createProperty($email: String!, $password: String!, $username: String!,$role:UserRole!){
+  createAccount(input:{
+    email: $email
+    username: $username
+    password: $password
+    role: $role
+  }){
+    ok
+    error
+  
+  }
+}
+`;
