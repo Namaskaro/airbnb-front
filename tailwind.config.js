@@ -93,7 +93,7 @@ module.exports = {
         sm: '640px',
         md: '768px',
         lg: '1024px',
-        xl: '1280px',
+        xl: '1310px',
         xxl: '1440px'
       },
       maxWidth: theme => theme('spacing')

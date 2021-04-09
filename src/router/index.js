@@ -9,6 +9,7 @@ import CreateProperty from '../views/CreateProperty'
 import Geocoder from '../views/Geocoder'
 import Login from '../views/Login'
 import Date from '../views/Date'
+import EnterAddress from '../components/CreateProperty/steps/EnterAddress'
 
 Vue.use(VueRouter)
 
@@ -52,6 +53,11 @@ const routes = [
     path: '/date',
     name: 'date',
     component: Date
+  },
+  {
+    path: '/create',
+    name: 'create',
+    component: EnterAddress
   }
 ]
 
